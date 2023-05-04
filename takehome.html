@@ -70,47 +70,32 @@ ul.task-list li input[type="checkbox"] {
 <section id="guidelines" class="level2">
 <h2 class="anchored" data-anchor-id="guidelines">Guidelines</h2>
 <ul>
-<li>Do not spend more than 5 hours total (It’s ok if you can’t answer all the questions).</li>
+<li>Do not spend more than 5 hours total. It’s ok if you don’t get to all of the questions.</li>
 <li>Your final report should be self contained (i.e.; PDF or HTML), with text, outputs, and summaries.</li>
+<li>Focus on quality instead of quantity - a report with a moderate amount of intentional, thoughtful content is much better than one with a lot of disconnected content.</li>
+<li>Write the report as if it will be read by someone with a limited quantitative background, such as a Product Manager or Business Executive.</li>
 <li>Write your code in R, and use any packages you’d like. If possible, please use the tidyverse and not base-R.</li>
 <li>Feel free to use Google or other online resources, but please don’t use ChatGPT or similar AI tools.</li>
 <li>The quality of your code is very important, so make it shine!</li>
-<li>Focus on quality instead of quantity - a report with a moderate amount of intentional, thoughtful content is much better than one with a lot of disconnected content.</li>
 <li>The data you are analyzing are simulated (you’ll see details in the documentation), but act as if they are real when you are writing your report.</li>
-</ul>
-</section>
-</section>
-<section id="prompt" class="level1">
-<h1>Prompt</h1>
-<section id="context" class="level2">
-<h2 class="anchored" data-anchor-id="context">Context</h2>
-<ul>
-<li>We are interested in evaluating a new claims dataset for use in answering future Epidemiological and HEOR questions.</li>
-<li>We have a sample of the dataset stored in the github repository https://github.com/Plinth-Analytics/takehome. See the README.md file for details.</li>
-<li>Below, we have a series of questions we would like you to answer using these data.</li>
-<li>We’d like you to analyze the data and come up with answers to our team’s questions listed below.</li>
-<li>The first set of questions are descriptive and very well specified, while the last question is open-ended.</li>
-<li>Please capture your analysis in a PDF or HTML document. The report should contain a combination of text and relevant analytical ouputs (tables, plots, etc.).</li>
-<li>The report should be self-contained – it should not assume the reader knows ahead of time what it’s about.</li>
-<li>Write the report as if it will be read by someone with a limited quantitative background, such as a Product Manager or Business Executive.</li>
 </ul>
 </section>
 </section>
 <section id="questions" class="level1">
 <h1>Questions</h1>
 <blockquote class="blockquote">
-<p>Hi Nicole, we are grateful for giving us 5 hours of your time to explore these claims data. Below is a set of questions that our internal teams need answers to. We look forward to seeing your report!<br> Walter White, Project Manager</p>
+<p>Hi Nicole, We are interested in evaluating a new claims dataset for use in answering future Epidemiological and HEOR questions. <br>The data are stored in the github repository https://github.com/Plinth-Analytics/takehome. See the README.md file for details. <br> Below, we have a series of questions we would like you to answer using these data. The first set of questions are descriptive and very well specified, while the last question is open-ended. <br>Please remember to keep your overall time below 5 hours! <br> Sincerely, <br>Heath Harrington, Project Manager at ACME Pharmaceuticals</p>
 </blockquote>
 <p><em>Here are some basic descriptive questions the team would like specific answers to.</em></p>
 <ol type="1">
 <li>How many patients are represented in the data?</li>
-<li>What are their basic demographics? (sex, age, race, etc.)</li>
 <li>How many inpatient claims do we see per patient?</li>
 <li>What percent of patients have <em>no</em> recorded inpatient data?</li>
 <li>What is the distribution of average prescription costs across patients?</li>
 <li>What percent of cancer patient’s prescription costs are paid by insurance?</li>
+<li>Please show us a table of data from 10 randomly sampled patients, include 1 row per patient and a few columns reflecting key patient level variables related to the questions above.</li>
 </ol>
-<p><em>Here is a core business question the team wants to understand. You are free to answer it using any method you’d like</em></p>
+<p><em>Here is a core business question the team wants to understand. You are free to answer it any way you’d like</em></p>
 <ol start="7" type="1">
 <li>What can these data tell us about the financial impacts of cancer? <!-- 6. For patients with cancer, what is the affect of diabetes on overall survival? --></li>
 </ol>

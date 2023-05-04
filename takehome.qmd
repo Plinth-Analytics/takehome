@@ -19,42 +19,34 @@ Please complete your work by 9am EST on Monday, May 8. Email me when you are fin
 
 ## Guidelines
 
-- Do not spend more than 5 hours total (It's ok if you can't answer all the questions).
+- Do not spend more than 5 hours total. It's ok if you don't get to all of the questions.
 - Your final report should be self contained (i.e.; PDF or HTML), with text, outputs, and summaries.
+- Focus on quality instead of quantity - a report with a moderate amount of intentional, thoughtful content is much better than one with a lot of disconnected content.
+- Write the report as if it will be read by someone with a limited quantitative background, such as a Product Manager or Business Executive.
 - Write your code in R, and use any packages you'd like. If possible, please use the tidyverse and not base-R. 
 - Feel free to use Google or other online resources, but please don't use ChatGPT or similar AI tools.
 - The quality of your code is very important, so make it shine!
-- Focus on quality instead of quantity - a report with a moderate amount of intentional, thoughtful content is much better than one with a lot of disconnected content.
 - The data you are analyzing are simulated (you'll see details in the documentation), but act as if they are real when you are writing your report.
-
-# Prompt
-
-## Context
-
-- We are interested in evaluating a new claims dataset for use in answering future Epidemiological and HEOR questions.
-- We have a sample of the dataset stored in the github repository https://github.com/Plinth-Analytics/takehome. See the README.md file for details.
-- Below, we have a series of questions we would like you to answer using these data.
-- We’d like you to analyze the data and come up with answers to our team’s questions listed below.
-- The first set of questions are descriptive and very well specified, while the last question is open-ended.
-- Please capture your analysis in a PDF or HTML document. The report should contain a combination of text and relevant analytical ouputs (tables, plots, etc.).
-- The report should be self-contained -- it should not assume the reader knows ahead of time what it's about. 
-- Write the report as if it will be read by someone with a limited quantitative background, such as a Product Manager or Business Executive.
 
 # Questions
 
-> Hi Nicole, we are grateful for giving us 5 hours of your time to explore these claims data. Below is a set of questions that our internal teams need answers to. We look forward to seeing your report!<br>
-> Walter White, Project Manager
+> Hi Nicole, We are interested in evaluating a new claims dataset for use in answering future Epidemiological and HEOR questions. <br>The data are stored in the github repository https://github.com/Plinth-Analytics/takehome. See the README.md file for details.
+> <br> Below, we have a series of questions we would like you to answer using these data. The first set of questions are descriptive and very well specified, while the last question is open-ended. 
+> <br>Please remember to keep your overall time below 5 hours!
+> <br> Sincerely, <br>Heath Harrington, Project Manager at ACME Pharmaceuticals
 
 *Here are some basic descriptive questions the team would like specific answers to.*
 
 1. How many patients are represented in the data? 
-2. What are their basic demographics? (sex, age, race, etc.)
-3. How many inpatient claims do we see per patient?
-4. What percent of patients have *no* recorded inpatient data?
-5. What is the distribution of average prescription costs across patients?
-6. What percent of cancer patient’s prescription costs are paid by insurance?
+2. How many inpatient claims do we see per patient?
+3. What percent of patients have *no* recorded inpatient data?
+4. What is the distribution of average prescription costs across patients?
+5. What percent of patients have death information?
+6. What was the average age of patients at their date of death?
+7. What percent of cancer patient’s prescription costs are paid by insurance?
+8. Please show us a table of data from 10 randomly sampled patients, include 1 row per patient and a few columns reflecting key patient level variables related to the questions above.
 
-*Here is a core business question the team wants to understand. You are free to answer it using any method you'd like*
+*Here is a core business question the team wants to understand. You are free to answer it any way you'd like*
 
 7. What can these data tell us about the financial impacts of cancer?
 <!-- 6. For patients with cancer, what is the affect of diabetes on overall survival? -->
