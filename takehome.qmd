@@ -1,0 +1,60 @@
+---
+title: "Plinth Take-Home Coding Exercise"
+subtitle: "Prepared for Nicole Mirea. Response due by 9am EST on Monday, May 8"
+format:
+  html:
+    theme: united
+editor: visual
+---
+
+# Welcome!
+
+This is a take-home exercise designed to help us understand how you write code and present analysis results.
+
+All of the information you need to complete this exercise should be in this document. But if you have any critical questions you need answers to, feel free to write me at nathaniel@plinth.co!
+
+## Guidelines
+
+- Do not spend more than 5 hours total (It's ok if you can't answer all the questions).
+- Your final report should be self contained (i.e.; PDF or HTML), with text, outputs, and summaries.
+- Write your code in R, and use any packages you'd like.
+- Feel free to use Google or other online resoures, but please don't use ChatGPT or similar AI tools.
+- The quality of your code is very important, so make it shine!
+- Focus on quality instead of quantity - a report with a moderate amount of intentional, thoughtful content is much better than one with a lot of disconnected content.
+- When you are finished, submit all of your work in a GitHub repository (can be public or private).
+- Share the repository with nathaniel@plinth.co (my github username is pa-nathaniel).
+- If you have any critical questions please don't hesitate to contact Nathaniel at nathaniel@plinth.co
+
+# Prompt
+
+## Context
+
+- We are interested in evaluating a new claims dataset for use in answering future Epidemiological and HEOR questions.
+- We have a sample of the dataset stored in the github repository LINK.
+- See the README to learn how it is structured.
+- Below, we have a series of questions we would like you to answer using these data.
+- We’d like you to analyze the data and come up with answers to our team’s questions listed below.
+- The first set of questions are descriptive and very well specified.
+- The last question is a core business question 
+- Please capture your analysis in a self-contained reproducible report (in PDF or HTML). The report should contain a combination of text and relevant analytical ouputs (tables, plots, etc.).
+- Write the report as if it will be read by someone with a limited quantitative background, such as a Product Manager or Business Executive
+
+# Questions
+
+*Here are some basic descriptive questions the team would like specific answers to.*
+
+1. How many patients are there? 
+2. What are their basic demographics?
+3. Please describe the inpatient data we have access to. Here are some specific questions the team has:
+    - What percent of patients have *no* recorded inpatient data?
+    - How many inpatient claims do we see per patient?
+4. Please describe the prescription data. Here are some specific questions the team has:
+    - What percent of patients have *no* prescription data?
+    - What is distribution of average prescription costs look like across patients?
+    - What percent of patient’s prescription costs are paid by insurance?
+    
+*Here is a core business question the team wants to understand. You are free to answer it using any method you'd like*
+
+5. What do these data tell us about the financial and health impacts of cancer?
+<!-- 6. For patients with cancer, what is the affect of diabetes on overall survival? -->
+
