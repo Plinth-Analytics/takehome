@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Plinth Take-Home Coding Exercise</h1>
-<p class="subtitle lead">Prepared for Nicole Mirea. Response due by 9am EST on Monday, May 8</p>
+<p class="subtitle lead">Prepared for Nicole Mirea</p>
 </div>
 
 
@@ -65,18 +65,18 @@ ul.task-list li input[type="checkbox"] {
 <h1>Welcome!</h1>
 <p>This is a take-home exercise designed to help us understand how you write code and present analysis results.</p>
 <p>All of the information you need to complete this exercise should be in this document. But if you have any critical questions you need answers to, feel free to write me at nathaniel@plinth.co!</p>
+<p>When you are finished, you should commit your document (and all the code needed to support it) to a new a GitHub repository that you create. If you have limited experience with git, you can also email it to nathaniel@plinth.co.</p>
+<p>Please complete your work by 9am EST on Monday, May 8. Email me when you are finished with a link to your repository!</p>
 <section id="guidelines" class="level2">
 <h2 class="anchored" data-anchor-id="guidelines">Guidelines</h2>
 <ul>
 <li>Do not spend more than 5 hours total (It’s ok if you can’t answer all the questions).</li>
 <li>Your final report should be self contained (i.e.; PDF or HTML), with text, outputs, and summaries.</li>
-<li>Write your code in R, and use any packages you’d like.</li>
-<li>Feel free to use Google or other online resoures, but please don’t use ChatGPT or similar AI tools.</li>
+<li>Write your code in R, and use any packages you’d like. If possible, please use the tidyverse and not base-R.</li>
+<li>Feel free to use Google or other online resources, but please don’t use ChatGPT or similar AI tools.</li>
 <li>The quality of your code is very important, so make it shine!</li>
 <li>Focus on quality instead of quantity - a report with a moderate amount of intentional, thoughtful content is much better than one with a lot of disconnected content.</li>
-<li>The data you are analysing are simulated (you’ll see details in the documentation), but act as if they are real when you are writing your report.</li>
-<li>When you are finished, submit all of your work in a GitHub repository (can be public or private).</li>
-<li>Share your repository with nathaniel@plinth.co (my github username is pa-nathaniel).</li>
+<li>The data you are analyzing are simulated (you’ll see details in the documentation), but act as if they are real when you are writing your report.</li>
 </ul>
 </section>
 </section>
@@ -89,34 +89,30 @@ ul.task-list li input[type="checkbox"] {
 <li>We have a sample of the dataset stored in the github repository https://github.com/Plinth-Analytics/takehome. See the README.md file for details.</li>
 <li>Below, we have a series of questions we would like you to answer using these data.</li>
 <li>We’d like you to analyze the data and come up with answers to our team’s questions listed below.</li>
-<li>The first set of questions are descriptive and very well specified.</li>
-<li>The last question is a core business question</li>
-<li>Please capture your analysis in a self-contained reproducible report (in PDF or HTML). The report should contain a combination of text and relevant analytical ouputs (tables, plots, etc.).</li>
-<li>Write the report as if it will be read by someone with a limited quantitative background, such as a Product Manager or Business Executive</li>
+<li>The first set of questions are descriptive and very well specified, while the last question is open-ended.</li>
+<li>Please capture your analysis in a PDF or HTML document. The report should contain a combination of text and relevant analytical ouputs (tables, plots, etc.).</li>
+<li>The report should be self-contained – it should not assume the reader knows ahead of time what it’s about.</li>
+<li>Write the report as if it will be read by someone with a limited quantitative background, such as a Product Manager or Business Executive.</li>
 </ul>
 </section>
 </section>
 <section id="questions" class="level1">
 <h1>Questions</h1>
+<blockquote class="blockquote">
+<p>Hi Nicole, we are grateful for giving us 5 hours of your time to explore these claims data. Below is a set of questions that our internal teams need answers to. We look forward to seeing your report!<br> Walter White, Project Manager</p>
+</blockquote>
 <p><em>Here are some basic descriptive questions the team would like specific answers to.</em></p>
 <ol type="1">
-<li>How many patients are there?</li>
-<li>What are their basic demographics?</li>
-<li>Please describe the inpatient data we have access to. Here are some specific questions the team has:
-<ul>
-<li>What percent of patients have <em>no</em> recorded inpatient data?</li>
+<li>How many patients are represented in the data?</li>
+<li>What are their basic demographics? (sex, age, race, etc.)</li>
 <li>How many inpatient claims do we see per patient?</li>
-</ul></li>
-<li>Please describe the prescription data. Here are some specific questions the team has:
-<ul>
-<li>What percent of patients have <em>no</em> prescription data?</li>
-<li>What is distribution of average prescription costs look like across patients?</li>
-<li>What percent of patient’s prescription costs are paid by insurance?</li>
-</ul></li>
+<li>What percent of patients have <em>no</em> recorded inpatient data?</li>
+<li>What is the distribution of average prescription costs across patients?</li>
+<li>What percent of cancer patient’s prescription costs are paid by insurance?</li>
 </ol>
 <p><em>Here is a core business question the team wants to understand. You are free to answer it using any method you’d like</em></p>
-<ol start="5" type="1">
-<li>What do these data tell us about the financial and health impacts of cancer? <!-- 6. For patients with cancer, what is the affect of diabetes on overall survival? --></li>
+<ol start="7" type="1">
+<li>What can these data tell us about the financial impacts of cancer? <!-- 6. For patients with cancer, what is the affect of diabetes on overall survival? --></li>
 </ol>
 </section>
 

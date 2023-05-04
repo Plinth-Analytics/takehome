@@ -1,6 +1,6 @@
 ---
 title: "Plinth Take-Home Coding Exercise"
-subtitle: "Prepared for Nicole Mirea. Response due by 9am EST on Monday, May 8"
+subtitle: "Prepared for Nicole Mirea"
 format:
   html:
     theme: united
@@ -13,17 +13,19 @@ This is a take-home exercise designed to help us understand how you write code a
 
 All of the information you need to complete this exercise should be in this document. But if you have any critical questions you need answers to, feel free to write me at nathaniel@plinth.co!
 
+When you are finished, you should commit your document (and all the code needed to support it) to a new a GitHub repository that you create. If you have limited experience with git, you can also email it to nathaniel@plinth.co.
+
+Please complete your work by 9am EST on Monday, May 8. Email me when you are finished with a link to your repository!
+
 ## Guidelines
 
 - Do not spend more than 5 hours total (It's ok if you can't answer all the questions).
 - Your final report should be self contained (i.e.; PDF or HTML), with text, outputs, and summaries.
-- Write your code in R, and use any packages you'd like.
-- Feel free to use Google or other online resoures, but please don't use ChatGPT or similar AI tools.
+- Write your code in R, and use any packages you'd like. If possible, please use the tidyverse and not base-R. 
+- Feel free to use Google or other online resources, but please don't use ChatGPT or similar AI tools.
 - The quality of your code is very important, so make it shine!
 - Focus on quality instead of quantity - a report with a moderate amount of intentional, thoughtful content is much better than one with a lot of disconnected content.
-- The data you are analysing are simulated (you'll see details in the documentation), but act as if they are real when you are writing your report.
-- When you are finished, submit all of your work in a GitHub repository (can be public or private).
-- Share your repository with nathaniel@plinth.co (my github username is pa-nathaniel).
+- The data you are analyzing are simulated (you'll see details in the documentation), but act as if they are real when you are writing your report.
 
 # Prompt
 
@@ -33,27 +35,27 @@ All of the information you need to complete this exercise should be in this docu
 - We have a sample of the dataset stored in the github repository https://github.com/Plinth-Analytics/takehome. See the README.md file for details.
 - Below, we have a series of questions we would like you to answer using these data.
 - We’d like you to analyze the data and come up with answers to our team’s questions listed below.
-- The first set of questions are descriptive and very well specified.
-- The last question is a core business question 
-- Please capture your analysis in a self-contained reproducible report (in PDF or HTML). The report should contain a combination of text and relevant analytical ouputs (tables, plots, etc.).
-- Write the report as if it will be read by someone with a limited quantitative background, such as a Product Manager or Business Executive
+- The first set of questions are descriptive and very well specified, while the last question is open-ended.
+- Please capture your analysis in a PDF or HTML document. The report should contain a combination of text and relevant analytical ouputs (tables, plots, etc.).
+- The report should be self-contained -- it should not assume the reader knows ahead of time what it's about. 
+- Write the report as if it will be read by someone with a limited quantitative background, such as a Product Manager or Business Executive.
 
 # Questions
 
+> Hi Nicole, we are grateful for giving us 5 hours of your time to explore these claims data. Below is a set of questions that our internal teams need answers to. We look forward to seeing your report!<br>
+> Walter White, Project Manager
+
 *Here are some basic descriptive questions the team would like specific answers to.*
 
-1. How many patients are there? 
-2. What are their basic demographics?
-3. Please describe the inpatient data we have access to. Here are some specific questions the team has:
-    - What percent of patients have *no* recorded inpatient data?
-    - How many inpatient claims do we see per patient?
-4. Please describe the prescription data. Here are some specific questions the team has:
-    - What percent of patients have *no* prescription data?
-    - What is distribution of average prescription costs look like across patients?
-    - What percent of patient’s prescription costs are paid by insurance?
-    
+1. How many patients are represented in the data? 
+2. What are their basic demographics? (sex, age, race, etc.)
+3. How many inpatient claims do we see per patient?
+4. What percent of patients have *no* recorded inpatient data?
+5. What is the distribution of average prescription costs across patients?
+6. What percent of cancer patient’s prescription costs are paid by insurance?
+
 *Here is a core business question the team wants to understand. You are free to answer it using any method you'd like*
 
-5. What do these data tell us about the financial and health impacts of cancer?
+7. What can these data tell us about the financial impacts of cancer?
 <!-- 6. For patients with cancer, what is the affect of diabetes on overall survival? -->
 
