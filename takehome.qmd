@@ -21,17 +21,16 @@ All of the information you need to complete this exercise should be in this docu
 - Feel free to use Google or other online resoures, but please don't use ChatGPT or similar AI tools.
 - The quality of your code is very important, so make it shine!
 - Focus on quality instead of quantity - a report with a moderate amount of intentional, thoughtful content is much better than one with a lot of disconnected content.
+- The data you are analysing are simulated (you'll see details in the documentation), but act as if they are real when you are writing your report.
 - When you are finished, submit all of your work in a GitHub repository (can be public or private).
-- Share the repository with nathaniel@plinth.co (my github username is pa-nathaniel).
-- If you have any critical questions please don't hesitate to contact Nathaniel at nathaniel@plinth.co
+- Share your repository with nathaniel@plinth.co (my github username is pa-nathaniel).
 
 # Prompt
 
 ## Context
 
 - We are interested in evaluating a new claims dataset for use in answering future Epidemiological and HEOR questions.
-- We have a sample of the dataset stored in the github repository LINK.
-- See the README to learn how it is structured.
+- We have a sample of the dataset stored in the github repository https://github.com/Plinth-Analytics/takehome. See the README.md file for details.
 - Below, we have a series of questions we would like you to answer using these data.
 - We’d like you to analyze the data and come up with answers to our team’s questions listed below.
 - The first set of questions are descriptive and very well specified.
