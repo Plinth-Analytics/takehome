@@ -24,9 +24,10 @@ Please complete your work by 9am EST on Monday, May 8. Email me when you are fin
 - Focus on quality instead of quantity - a report with a moderate amount of intentional, thoughtful content is much better than one with a lot of disconnected content.
 - Write the report as if it will be read by someone with a limited quantitative background, such as a Product Manager or Business Executive.
 - Write your code in R, and use any packages you'd like. If possible, please use the tidyverse and not base-R. 
-- Feel free to use Google or other online resources, but please don't use ChatGPT or similar AI tools.
+- Feel free to use Google or other online resources, but please don't use ChatGPT or similar AI tools. You may be asked to explain your code later!
 - The quality of your code is very important, so make it shine!
 - The data you are analyzing are simulated (you'll see details in the documentation), but act as if they are real when you are writing your report.
+- There should be no trick questions. However, if you feel you can't answer a question with the data and guidance you were provided, write a brief explanation for what you tried and why you can't answer it and skip it.
 
 # Questions
 
